@@ -1,5 +1,5 @@
 {
-  "name": "hello-koa",
+  "name": "server-side-with-koa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
