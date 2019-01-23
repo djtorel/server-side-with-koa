@@ -20,13 +20,12 @@ db.on("error", error => {
 });
 db.once("open", () => console.log("database connected"));
 
+// Utility Middleware
 app.use(logger());
-
 app.use(bodyParser());
-
 app.use(validator());
 
-// Router
+// Router middleware
 app.use(router.routes());
 app.use(router.allowedMethods());
 
