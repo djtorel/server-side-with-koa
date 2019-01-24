@@ -1,0 +1,24 @@
+{
+  "name": "05-Koa-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "ejs": "^2.6.1",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.6",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-views": "^6.1.5",
+    "mongoose": "^5.4.6",
+    "mongoose-unique-validator": "^2.0.2"
+  }
+}
